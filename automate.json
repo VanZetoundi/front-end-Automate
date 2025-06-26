@@ -1,0 +1,15 @@
+{
+  "etats": ["q0", "q1", "q2"],
+  "alphabet": ["a", "b"],
+  "etat_initial": "q0",
+  "etats_finaux": ["q2"],
+  "transitions": {
+    "q0": {
+      "a": ["q1"],
+      "ε": ["q2"]
+    },
+    "q1": {
+      "b": ["q2"]
+    }
+  }
+}
